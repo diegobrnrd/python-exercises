@@ -12,7 +12,7 @@ quantidade_homens = 0
 quantidade_mulheres = 0
 soma_altura_mulheres = 0
 sexo_pessoa_mais_alta = None
-for p in range(1, 3):
+for p in range(1, 16):
     altura = int(input('Digite a altura (cm): '))
     sexo = input('Digite o sexo (M ou F): ')
     if altura > maior_altura:
