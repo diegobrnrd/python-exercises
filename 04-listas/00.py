@@ -10,17 +10,16 @@
 #  Razão entre a soma do intervalo de 10 a 15 pelo intervalo de 3 a 9 em float!
 
 L = list(range(16))
-P = []
-I = []
+PA = []
+IM = []
 M3 = []
 M4 = []
-LR = L[:]
-LR.sort(reverse=True)
+LR = L[::-1]
 for numero in L:
     if numero % 2 == 0:
-        P.append(numero)
+        PA.append(numero)
     else:
-        I.append(numero)
+        IM.append(numero)
 for numero in L:
     if numero % 3 == 0:
         M3.append(numero)
@@ -28,9 +27,9 @@ for numero in L:
         M4.append(numero)
 print(f'Intervalo de 1 a 9: {L[:10]}'
       f'\nIntervalo de 8 a 13: {L[8:14]}'
-      f'\nNúmeros pares: {P}'
-      f'\nNúmeros ímpares: {I}'
-      f'\nMúltiplos de 2: {P}'
+      f'\nNúmeros pares: {PA}'
+      f'\nNúmeros ímpares: {IM}'
+      f'\nMúltiplos de 2: {PA}'
       f'\nMúltiplos de 3: {M3}'
       f'\nMúltiplos de 4: {M4}'
       f'\nLista reversa: {LR}'

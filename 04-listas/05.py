@@ -2,11 +2,11 @@
 # uma lista IMPAR. Imprima as listas PAR e IMPAR.
 
 L = list(range(60, 81))
-P, I = [], []
+PA, IM = [], []
 for n in L:
     if n % 2 == 0:
-        P.append(n)
+        PA.append(n)
     else:
-        I.append(n)
-print(f'Lista par: {P}'
-      f'\nLista ímpar: {I}')
+        IM.append(n)
+print(f'Lista par: {PA}'
+      f'\nLista ímpar: {IM}')

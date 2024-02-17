@@ -4,16 +4,16 @@
 num_linha = int(input('Digite a quantidade de linhas da matriz: '))
 num_coluna = int(input('Digite a quantidade de colunas da matriz: '))
 
-M = []
+matriz = []
 
 for i in range(num_linha):
     linha = []
     for j in range(num_coluna):
         valor = float(input(f'Digite o valor para a posição ({i + 1}, {j + 1}): '))
         linha.append(valor)
-    M.append(linha)
+    matriz.append(linha)
 
-for l in M:
-    for n in l:
-        print(f'{n * 2:8.2f}', end=' ')
+for linha in matriz:
+    for valor in linha:
+        print(f'{valor * 2:8.2f}', end=' ')
     print()
