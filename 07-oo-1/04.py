@@ -13,14 +13,14 @@ class Aluno:
         self.curso = curso
         self.tempo_sem_dormir = tempo_sem_dormir
 
-    def estudar(self, estudou):
-        self.tempo_sem_dormir += estudou
+    def estudar(self, horas_de_estudo):
+        self.tempo_sem_dormir += horas_de_estudo
 
-    def dormir(self, sono):
-        self.tempo_sem_dormir -= sono
+    def dormir(self, horas_de_sono):
+        self.tempo_sem_dormir -= horas_de_sono
 
 
-aluno1 = Aluno('Diego', 'Sistemas de Informação', 16)
-aluno1.estudar(8)
-aluno1.dormir(6)
-print(f'{aluno1.nome} está {aluno1.tempo_sem_dormir} hora(s) sem dormir.')
+aluno_1 = Aluno('Diego', 'Sistemas de Informação', 16)
+aluno_1.estudar(8)
+aluno_1.dormir(6)
+print(f'{aluno_1.nome} está {aluno_1.tempo_sem_dormir} hora(s) sem dormir.')

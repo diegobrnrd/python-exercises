@@ -3,9 +3,9 @@
 # • Crie um codigo de teste
 
 class Livro:
-    def __init__(self, nome, qtd_paginas, autor, preco):
+    def __init__(self, nome, paginas, autor, preco):
         self.nome = nome
-        self.qtd_paginas = qtd_paginas
+        self.paginas = paginas
         self.autor = autor
         self.preco = preco
 
@@ -14,9 +14,8 @@ class Livro:
 
     def set_preco(self, novo_preco):
         self.preco = novo_preco
-        return self.preco
 
 
-livro1 = Livro('Do Inferno', '592', 'Alan Moore', 106.14)
-
-print(f'Valor do livro {livro1.nome}: R$ {livro1.preco}')
+livro_1 = Livro('Do Inferno', '592', 'Alan Moore', 106.14)
+livro_1.set_preco(100)
+print(f'Valor do livro {livro_1.nome}: R$ {livro_1.preco:.2f}')

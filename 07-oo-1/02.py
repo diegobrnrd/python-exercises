@@ -14,10 +14,9 @@ class Funcionario:
 
     def aumentar_salario(self, porcentual):
         self.salario += self.salario * porcentual / 100
-        return self.salario
 
 
 funcionario1 = Funcionario('Diego', 2000)
-funcionario1.aumentar_salario(10)
+funcionario1.aumentar_salario(50)
 
 print(f'O novo salário de {funcionario1.nome} é: R$ {funcionario1.salario:.2f}')
