@@ -5,5 +5,4 @@ frase = input('Digite uma frase: ')
 with open('frase.txt', 'w') as arquivo:
     arquivo.write(frase)
 with open('frase.txt', 'r') as arquivo:
-    conteudo = arquivo.read()
-    print(f"Conteúdo do arquivo 'frase.txt': {conteudo}")
+    print(f'{arquivo.read()}')

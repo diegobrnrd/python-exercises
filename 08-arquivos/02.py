@@ -7,10 +7,9 @@
 # o programa deve gerar um dicionário onde as chaves são as identidades e os valores os nomes. Ao final o programa
 # deve exibir o dicionário.
 
-nome_do_arquivo = 'identidades.txt'
-identidades_nomes = {}
-with open(nome_do_arquivo, 'r') as arquivo:
+dicionario_identidades = {}
+with open('identidades.txt', 'r') as arquivo:
     for linha in arquivo:
         identidade, nome = linha.split()
-        identidades_nomes[identidade] = nome
-print(f'Dicionário de identidade e nomes: {identidades_nomes}')
+        dicionario_identidades[identidade] = nome
+print(dicionario_identidades)
