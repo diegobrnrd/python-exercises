@@ -10,6 +10,6 @@
 dicionario_identidades = {}
 with open('identidades.txt', 'r') as arquivo:
     for linha in arquivo:
-        identidade, nome = linha.split()
+        identidade, nome = linha.strip().split()
         dicionario_identidades[identidade] = nome
 print(dicionario_identidades)
