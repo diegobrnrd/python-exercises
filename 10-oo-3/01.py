@@ -21,5 +21,6 @@ class Vip(Ingresso):
 
 ingresso_1 = Ingresso(50)
 print(f'Valor ingresso: R$ {ingresso_1.imprime_valor():.2f}')
+
 ingresso_2 = Vip(50, 20)
 print(f'Valor ingresso VIP: R$ {ingresso_2.retorna_valor():.2f}')
