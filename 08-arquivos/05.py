@@ -3,6 +3,7 @@
 
 with open('nomes_ordenados.txt', 'r') as arquivo:
     lista_linhas = arquivo.readlines()
+
 with open('linhas_selecionadas.txt', 'w') as arquivo:
     for linha in range(2, 5):
         arquivo.write(lista_linhas[linha])

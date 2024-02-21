@@ -6,6 +6,7 @@
 nome_arquivo = input('Digite o nome do arquivo: ')
 contador_linhas = 0
 contador_print = 0
+
 try:
     with open(nome_arquivo, 'r') as arquivo:
         for linha in arquivo:
@@ -14,5 +15,6 @@ try:
 except FileNotFoundError:
     print('O arquivo especificado não foi encontrado.')
     exit()
+
 print(f'O arquivo tem {contador_linhas} linhas.')
-print(f'O código possui {contador_print} ocorrência(s) da palavra "print". ')
+print(f'O código possui {contador_print} ocorrência(s) da palavra "print".')
