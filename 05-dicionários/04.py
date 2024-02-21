@@ -3,8 +3,8 @@
 # o seu conteúdo. Crie um programa que insira dados em um dicionário, realizando o backup a cada dado e excluindo os
 # dados do dicionário principal quando ele atingir tamanho 5.
 
-d = {}
-db = {}
+dicionario = {}
+backup = {}
 while True:
     resposta = input('Digite C para cadastrar e S para sair: ')
     if resposta.upper() == 'S':
@@ -14,7 +14,7 @@ while True:
     else:
         produto = input('Digite o nome do produto: ')
         preco = float(input('Digite o preço do produto: '))
-        d[produto] = preco
-        if len(d) == 5:
-            for produto in list(d.keys()):
-                db[produto] = d.pop(produto)
+        dicionario[produto] = preco
+        if len(dicionario) == 5:
+            for produto in list(dicionario.keys()):
+                backup[produto] = dicionario.pop(produto)
