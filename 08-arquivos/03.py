@@ -15,11 +15,13 @@
 with open('ips.txt', 'r') as arquivo:
     for linha in arquivo:
         print(f'Analisando IP: {linha.strip()}')
-        partes = linha.strip().split('.')
-        for parte in partes:
+        ip = linha.strip().split('.')
+        valido = True
+        for parte in ip:
             if int(parte) > 254:
-                print('IP inválido')
+                valido = False
                 break
-            else:
-                print('IP válido')
-                break
+        if valido:
+            print('IP válido.')
+        else:
+            print('IP inválido.')
