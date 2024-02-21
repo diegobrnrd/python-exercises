@@ -1,10 +1,10 @@
 # • Crie um dicionário d e coloque nele seus dados: nome, idade, telefone,endereço.
 
-d = {'nome': 'Diego',
-     'idade': 25,
-     'telefone': '999998888',
-     'endereço': 'rua das flores'}
+dic = {'nome': 'Diego',
+       'idade': 25,
+       'telefone': '988887777',
+       'endereço': 'Rua das flores'}
 
 # • Usando o dicionário d criado anteriormente, imprima seu nome.
 
-print(f'Meu nome é: {d["nome"]}')
+print(f'Meu nome é: {dic["nome"]}')

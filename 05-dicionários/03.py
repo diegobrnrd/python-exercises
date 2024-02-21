@@ -19,5 +19,3 @@ for cpf in cpfs:
     if pessoas[cpf]['idade'] < 18:
         pessoas_menor[cpf] = pessoas[cpf]
         del pessoas[cpf]
-print(f'Pessoas menores de idade: {pessoas_menor}'
-      f'\nPessoas maiores de idade: {pessoas}')
