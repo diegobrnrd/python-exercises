@@ -6,7 +6,7 @@
 dicionario = {}
 backup = {}
 while True:
-    resposta = input('Digite C para cadastrar e S para sair: ')
+    resposta = input('Digite C para cadastrar ou S para sair: ')
     if resposta.upper() == 'S':
         break
     elif resposta.upper() != 'S' and resposta.upper() != 'C':

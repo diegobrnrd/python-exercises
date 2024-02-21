@@ -4,7 +4,7 @@
 pessoas = {}
 pessoas_menor = {}
 while True:
-    resposta = input('Digite C para cadastrar e S para sair: ')
+    resposta = input('Digite C para cadastrar ou S para sair: ')
     if resposta.lower() == 's':
         break
     elif resposta.lower() != 's' and resposta.lower() != 'c':
