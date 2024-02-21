@@ -23,4 +23,5 @@ class Aluno:
 aluno_1 = Aluno('Diego', 'Sistemas de Informação', 16)
 aluno_1.estudar(8)
 aluno_1.dormir(6)
+
 print(f'{aluno_1.nome} está {aluno_1.tempo_sem_dormir} hora(s) sem dormir.')

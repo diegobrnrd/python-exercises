@@ -37,11 +37,8 @@ aluno_1 = Aluno('João', "123.456.789-00")
 aluno_2 = Aluno('Maria', "987.654.321-00")
 aluno_3 = Aluno('Carlos', "111.222.333-44")
 aluno_4 = Aluno('Ana', "999.888.777-66")
-
 gerenciador = GerenciadorEquipes()
 
 print(gerenciador.criar_equipe([aluno_1, aluno_2], 'Projeto 1'))
-
 print(gerenciador.criar_equipe([aluno_3, aluno_4], 'Projeto 2'))
-
 print(gerenciador.criar_equipe([aluno_1, aluno_3], 'Projeto 1'))

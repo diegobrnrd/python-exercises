@@ -18,4 +18,5 @@ class Livro:
 
 livro_1 = Livro('Do Inferno', '592', 'Alan Moore', 106.14)
 livro_1.set_preco(100)
+
 print(f'Valor do livro {livro_1.nome}: R$ {livro_1.preco:.2f}')
