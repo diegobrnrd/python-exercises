@@ -8,4 +8,4 @@ while index != -1:
     if index != -1:
         index += 1
         vezes += 1
-print(f"Quantidade de 'ado' na string: {vezes}")
+print(f'Quantidade de "ado" na string: {vezes}')
