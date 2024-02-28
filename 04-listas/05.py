@@ -8,5 +8,6 @@ for n in L:
         PA.append(n)
     else:
         IM.append(n)
+
 print(f'Lista par: {PA}'
       f'\nLista ímpar: {IM}')

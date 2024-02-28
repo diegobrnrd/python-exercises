@@ -6,12 +6,16 @@ T = []
 M = ['Janeiro', 'Fervereiro', 'Março', 'Abril',
      'Maio', 'Junho', 'Julho', 'Agosto',
      'Setembro', 'Outubro', 'Novembro', 'Dezembro']
+
 for m in range(12):
     temperatura = float(input(f'Temperatura de {M[m]}: '))
     T.append(temperatura)
+
 media = sum(T) / 12
+
 print(f'Média anual das temperaturas: {media}')
 print('Meses onde a temperatura foi acima da média anual: ', end='')
+
 i = 0
 qtde_temp_acima_media = 0
 for t in T:
@@ -19,5 +23,6 @@ for t in T:
         print(f'{i + 1} - {M[i]}', end=' ')
         qtde_temp_acima_media += 1
     i += 1
+
 if qtde_temp_acima_media == 0:
     print('nenhuma ocorrência.')

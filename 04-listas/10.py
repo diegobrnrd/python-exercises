@@ -13,7 +13,9 @@ perguntas = ['Telefonou para a vítima?',
              'Mora perto da vítima?',
              'Tinha dívidas com a vítima?',
              'Já trabalhou com a vítima?']
+
 print(f'Responda com S para sim e N para não.')
+
 x = 0
 resposta_positiva = 0
 while x <= 4:
@@ -25,9 +27,11 @@ while x <= 4:
         x += 1
     elif resposta.lower() == 'n':
         x += 1
+
 veredito = ['Inocente',
             'Suspeita',
             'Cúmplice',
             'Cúmplice',
             'Assassino']
+
 print(f'Veredito: {veredito[resposta_positiva - 1]}')

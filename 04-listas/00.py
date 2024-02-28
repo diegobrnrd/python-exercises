@@ -15,6 +15,7 @@ IM = []
 M3 = []
 M4 = []
 LR = L[::-1]
+
 for numero in L:
     if numero % 2 == 0:
         PA.append(numero)
@@ -25,6 +26,7 @@ for numero in L:
         M3.append(numero)
     if numero % 4 == 0:
         M4.append(numero)
+
 print(f'Intervalo de 1 a 9: {L[:10]}'
       f'\nIntervalo de 8 a 13: {L[8:14]}'
       f'\nNúmeros pares: {PA}'
