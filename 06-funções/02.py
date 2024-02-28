@@ -4,4 +4,5 @@ from funcoes import quantidade_digitos
 
 numero = int(input('Digite um número inteiro: '))
 quantidade = quantidade_digitos(numero)
+
 print(f'{numero} tem {quantidade} digito(s).')

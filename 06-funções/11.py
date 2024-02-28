@@ -17,4 +17,5 @@ def data_nascimento_extenso(data_nascimento):
 
 teste = input('Digite sua data de nascimento no formato (dd/mm/aaaa): ')
 data_escrito = data_nascimento_extenso(teste)
+
 print(data_escrito)

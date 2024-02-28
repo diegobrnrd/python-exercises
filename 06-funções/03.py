@@ -5,4 +5,5 @@ from funcoes import verifica_numero
 
 numero = int(input('Digite um número inteiro: '))
 retorno = verifica_numero(numero)
+
 print(retorno)
