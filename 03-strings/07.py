@@ -11,6 +11,7 @@
 
 dna = 'agct'
 rna_m = ''
+
 for letra in dna:
     if letra == 'a':
         letra = 'u'

@@ -10,4 +10,4 @@
 
 nome = input('Digite seu nome: ')
 for letra in nome:
-    print(letra)
+    print(letra.upper())

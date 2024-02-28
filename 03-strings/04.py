@@ -9,7 +9,7 @@
 # FULANO
 
 nome = input('Digite seu nome: ')
-x = ''
+letras = ''
 for letra in nome:
-    x += letra
-    print(x)
+    letras += letra
+    print(letras.upper())

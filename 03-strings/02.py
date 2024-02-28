@@ -3,8 +3,5 @@
 # maiúsculas ou minúsculas.
 
 nome = input('Digite seu nome: ')
-x = len(nome) - 1
-while x >= 0:
-    letra = nome[x]
-    x -= 1
-    print(f'{letra.upper()}', end='')
+nome_invertido = nome[::-1]
+print(nome_invertido.upper())
