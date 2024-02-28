@@ -12,6 +12,7 @@ quantidade_homens = 0
 quantidade_mulheres = 0
 soma_altura_mulheres = 0
 sexo_pessoa_mais_alta = None
+
 for p in range(1, 16):
     altura = int(input('Digite a altura (cm): '))
     sexo = input('Digite o sexo (M ou F): ')
@@ -25,13 +26,17 @@ for p in range(1, 16):
     elif sexo == 'F' or sexo == 'f':
         quantidade_mulheres += 1
         soma_altura_mulheres += altura
+
 print(f'Maior altura: {maior_altura}cm.'
       f'\nMenor altura: {menor_altura}cm.')
+
 if quantidade_mulheres == 0:
     print('Média de altura das mulheres: não há mulheres.')
 else:
     print(f'Média de altura das mulheres: {soma_altura_mulheres / quantidade_mulheres}cm.')
+
 print(f'Quantidade de homens: {quantidade_homens}')
+
 if sexo_pessoa_mais_alta == 'M' or sexo_pessoa_mais_alta == 'm':
     print('Sexo da pessoa mais alta: Masculino.')
 else:

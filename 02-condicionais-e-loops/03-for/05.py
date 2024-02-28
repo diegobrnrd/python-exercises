@@ -4,6 +4,7 @@
 maior_temperatura = -1000
 menor_temperatura = 1000
 soma = 0
+
 for t in range(1, 101):
     temperatura = float(input(f'{t}ª temperatura: '))
     soma += temperatura
@@ -11,6 +12,7 @@ for t in range(1, 101):
         maior_temperatura = temperatura
     if temperatura < menor_temperatura:
         menor_temperatura = temperatura
+
 print(f'\nMaior temperatura: {maior_temperatura}'
       f'\nMenor temperatura: {menor_temperatura}'
       f'\nMédia das temperaturas: {soma / 100}')

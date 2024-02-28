@@ -16,8 +16,10 @@ print('1 - Candidato A'
       '\n3 - Candidato C'
       '\n4 - Voto Nulo'
       '\n5 - Voto em Branco\n')
+
 total_a, total_b, total_c = 0, 0, 0
 total_nulo, total_branco = 0, 0
+
 for v in range(1, 16):
     voto = int(input('Insira seu voto: '))
     if voto == 1:
@@ -30,7 +32,9 @@ for v in range(1, 16):
         total_nulo += 1
     elif voto == 5:
         total_branco += 1
+
 total_votos = total_a + total_b + total_c + total_nulo + total_branco
+
 print(f'\nTotal votos candidato A: {total_a} voto(s).'
       f'\nTotal votos candidato B: {total_b} voto(s).'
       f'\nTotal votos candidato C: {total_c} voto(s).'
