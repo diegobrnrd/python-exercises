@@ -14,6 +14,7 @@ while True:
         idade = int(input('Idade: '))
         cpf = int(input('CPF: '))
         pessoas[cpf] = {'nome': nome, 'idade': idade}
+
 cpfs = list(pessoas.keys())
 for cpf in cpfs:
     if pessoas[cpf]['idade'] < 18:
