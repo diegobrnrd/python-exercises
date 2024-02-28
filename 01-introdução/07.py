@@ -3,4 +3,5 @@
 
 nome = input('Digite seu nome: ')
 matricula = int(input('Nº matrícula: '))
+
 print(f'Nome do Aluno: {nome}, Matrícula: {matricula}')

@@ -5,4 +5,5 @@
 
 base = float(input('Digite a base do terreno: '))
 altura = float(input('Digite a altura do terreno: '))
+
 print(f'Área do terreno: {base * altura}')
