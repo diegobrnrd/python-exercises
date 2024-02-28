@@ -2,6 +2,7 @@
 # positivos (use o ‘continue’). Considerar o valor 99 como fim da entrada.
 
 impares = ''
+
 while True:
     numero = int(input('Digite um número inteiro: '))
     if numero == 99:
@@ -10,4 +11,5 @@ while True:
         continue
     else:
         impares += f'{str(numero)} '
+
 print(impares)

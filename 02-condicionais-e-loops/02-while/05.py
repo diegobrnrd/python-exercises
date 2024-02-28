@@ -5,7 +5,9 @@ base = float(input('Digite a base: '))
 expoente = int(input('Digite o expoente (inteiro positivo): '))
 expo = expoente
 resultado = 1
+
 while expo > 0:
     resultado *= base
     expo -= 1
+
 print(f'{base}^{expoente} = {resultado}')
