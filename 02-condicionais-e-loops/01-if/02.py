@@ -2,6 +2,7 @@
 # “Sem Febre” (temp < 37).
 
 temperatura = float(input('Informe a temperatura do paciente: '))
+
 if temperatura >= 39:
     print('Febre Alta')
 elif temperatura >= 37:

@@ -4,6 +4,7 @@
 distancia = float(input('Distância (km): '))
 tempo = float(input('Tempo de viagem (horas): '))
 velocidade_media = distancia / tempo
+
 if velocidade_media > 110:
     print('Você ultrapassou o limite máximo de 110km/h')
 else:

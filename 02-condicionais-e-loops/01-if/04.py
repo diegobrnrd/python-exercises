@@ -2,6 +2,7 @@
 # bissexto (divisível por 4).
 
 ano = int(input('Digite um ano com 4 digitos: '))
+
 if ano % 4 == 0:
     print(f'{ano} é bissexto.')
 else:

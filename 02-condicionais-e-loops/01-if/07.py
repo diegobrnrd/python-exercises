@@ -2,6 +2,7 @@
 # ou N-Noturno. Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso.
 
 turno = input('Em qual turno você estuda? (M - Matutino, V - Vespertino ou N - Noturno): ')
+
 if turno == 'M' or turno == 'm':
     print('Bom Dia!')
 elif turno == 'V' or turno == 'v':

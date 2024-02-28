@@ -2,6 +2,7 @@
 # digitar outro valor deve aparecer valor inválido.
 
 numero = int(input('Digite um número entre 1 e 7: '))
+
 if numero == 1:
     print('Domingo')
 elif numero == 2:
