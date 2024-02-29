@@ -5,6 +5,7 @@
 
 dicionario = {}
 backup = {}
+
 while True:
     resposta = input('Digite C para cadastrar ou S para sair: ')
     if resposta.upper() == 'S':
