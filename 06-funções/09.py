@@ -12,6 +12,7 @@ def converte_horas(horas_c):
     else:
         return horas_c - 12, 'P.M.'
 
+
 horas = -1
 minutos = -1
 while True:
