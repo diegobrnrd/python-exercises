@@ -3,6 +3,7 @@
 
 pessoas = {}
 pessoas_menor = {}
+
 while True:
     resposta = input('Digite C para cadastrar ou S para sair: ')
     if resposta.lower() == 's':
@@ -16,6 +17,7 @@ while True:
         pessoas[cpf] = {'nome': nome, 'idade': idade}
 
 cpfs = list(pessoas.keys())
+
 for cpf in cpfs:
     if pessoas[cpf]['idade'] < 18:
         pessoas_menor[cpf] = pessoas[cpf]

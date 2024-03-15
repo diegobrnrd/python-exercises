@@ -8,11 +8,9 @@ while True:
     cpf = input('Digite o cpf para cadastrar (S para sair): ')
     if cpf.lower() == 's':
         break
-
     nome = input('Digite seu nome: ')
     idade = int(input('Digite sua idade: '))
     telefone = input('Digite seu telefone: ')
-
     agenda[cpf] = {'nome': nome, 'idade': idade, 'telefone': telefone}
 
 print('\nAgenda:')
