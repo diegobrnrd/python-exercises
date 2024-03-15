@@ -25,5 +25,8 @@ ladoC = float(input('Informe o terceiro lado do triângulo: '))
 
 triangulo = Triangulo(ladoA, ladoB, ladoC)
 
-print(f'O perímetro do triângulo é: {triangulo.calcula_perimetro()}')
-print(f'O maior lado do triângulo é: {triangulo.get_maior_lado()}')
+print(f'''
+O perímetro do triângulo é: {triangulo.calcula_perimetro()}
+O maior lado do triângulo é: {triangulo.get_maior_lado()}
+''')
+
