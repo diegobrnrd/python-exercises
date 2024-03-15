@@ -10,4 +10,4 @@ while expo > 0:
     resultado *= base
     expo -= 1
 
-print(f'{base}^{expoente} = {resultado}')
+print(f'{base} ^ {expoente} = {resultado}')
