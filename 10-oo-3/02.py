@@ -45,5 +45,7 @@ print(isinstance(triangulo, Forma))
 retangulo.calcula_area()
 triangulo.calcula_area()
 
-print(f'Área do retângulo: {retangulo.area}')
-print(f'Área do triângulo: {triangulo.area}')
+print(f'''
+Área do retângulo: {retangulo.area})
+print(f'Área do triângulo: {triangulo.area}
+''')

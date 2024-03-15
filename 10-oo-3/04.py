@@ -36,21 +36,27 @@ class ContaImposto(ContaCorrente):
 obj_1 = ContaCorrente(123)
 obj_1.creditar(2000)
 obj_1.debitar(1000)
-print(f'\nNúmero da conta: {obj_1.numero}'
-      f'\nSaldo: R$ {obj_1.saldo:.2f}')
+print(f'''
+Número da conta: {obj_1.numero}
+Saldo: R$ {obj_1.saldo:.2f}
+''')
 
 obj_2 = Poupanca(456, 50)
 obj_2.creditar(2000)
 obj_2.debitar(1000)
 obj_2.render_juros()
-print(f'\nNúmero da conta: {obj_2.numero}'
-      f'\nSaldo: R$ {obj_2.saldo:.2f}'
-      f'\nTaxa de juros: {obj_2.taxa_juros}%')
+print(f'''
+Número da conta: {obj_2.numero}'
+Saldo: R$ {obj_2.saldo:.2f}'
+Taxa de juros: {obj_2.taxa_juros}%
+''')
 
 obj_3 = ContaImposto(789, 50)
 obj_3.creditar(2000)
 obj_3.debitar(1000)
 obj_3.calcula_imposto()
-print(f'\nNúmero da conta: {obj_3.numero}'
-      f'\nSaldo: R$ {obj_3.saldo:.2f}'
-      f'\nTaxa de imposto: {obj_3.percentual_imposto}%')
+print(f'''
+Número da conta: {obj_3.numero}
+Saldo: R$ {obj_3.saldo:.2f}
+Taxa de imposto: {obj_3.percentual_imposto}%
+''')
