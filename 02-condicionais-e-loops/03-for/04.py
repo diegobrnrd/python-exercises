@@ -11,5 +11,7 @@ for n in range(1, 11):
     else:
         impares += 1
 
-print(f'\nQuantidade de números pares: {pares}'
-      f'\nQuantidade de números ímpares: {impares}')
+print(f'''
+Quantidade de números pares: {pares}
+Quantidade de números ímpares: {impares}
+''')

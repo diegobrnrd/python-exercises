@@ -35,10 +35,12 @@ for v in range(1, 16):
 
 total_votos = total_a + total_b + total_c + total_nulo + total_branco
 
-print(f'\nTotal votos candidato A: {total_a} voto(s).'
-      f'\nTotal votos candidato B: {total_b} voto(s).'
-      f'\nTotal votos candidato C: {total_c} voto(s).'
-      f'\nTotal votos nulo: {total_nulo} votos(S).'
-      f'\nTotal votos em branco: {total_branco} voto(s).'
-      f'\nPercentagem de votos nulos sobre o total de votos: {total_nulo * 100 / total_votos:.2f}%'
-      f'\nPercentagem de votos em branco sobre o total de votos: {total_branco * 100 / total_votos:.2f}%')
+print(f'''
+Total votos candidato A: {total_a} voto(s).
+Total votos candidato B: {total_b} voto(s).
+Total votos candidato C: {total_c} voto(s).
+Total votos nulo: {total_nulo} votos(S).
+Total votos em branco: {total_branco} voto(s).
+Percentagem de votos nulos sobre o total de votos: {total_nulo * 100 / total_votos:.2f}%
+Percentagem de votos em branco sobre o total de votos: {total_branco * 100 / total_votos:.2f}%
+''')

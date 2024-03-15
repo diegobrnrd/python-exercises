@@ -13,6 +13,8 @@ for t in range(1, 101):
     if temperatura < menor_temperatura:
         menor_temperatura = temperatura
 
-print(f'\nMaior temperatura: {maior_temperatura}'
-      f'\nMenor temperatura: {menor_temperatura}'
-      f'\nMédia das temperaturas: {soma / 100}')
+print(f'''
+Maior temperatura: {maior_temperatura}
+Menor temperatura: {menor_temperatura}
+Média das temperaturas: {soma / 100}
+''')
