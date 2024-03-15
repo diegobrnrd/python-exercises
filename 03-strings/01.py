@@ -13,10 +13,12 @@
 string_1 = input('String 1: ')
 string_2 = input('String 2: ')
 
-print(f'String 1: {string_1}')
-print(f'String 2: {string_2}')
-print(f'Tamanho de "{string_1}": {len(string_1)} caracteres.')
-print(f'Tamanho de "{string_2}": {len(string_2)} caracteres.')
+print(f'''
+String 1: {string_1}
+String 2: {string_2}
+Tamanho de "{string_1}": {len(string_1)} caracteres.
+Tamanho de "{string_2}": {len(string_2)} caracteres.
+''')
 
 if len(string_1) == len(string_2):
     print('As duas strings são de tamanhos iguais.')
