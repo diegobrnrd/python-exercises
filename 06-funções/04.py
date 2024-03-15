@@ -4,5 +4,4 @@ from funcoes import inverte_numero
 
 numero = int(input('Digite um número inteiro: '))
 numero_invertido = inverte_numero(numero)
-
 print(numero_invertido)

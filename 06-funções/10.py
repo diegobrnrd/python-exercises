@@ -13,5 +13,4 @@ def inverte_nome_m(nome):
 
 nome = input('Digite seu nome: ')
 nome_invertido_m = inverte_nome_m(nome)
-
 print(nome_invertido_m)

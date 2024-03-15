@@ -15,6 +15,7 @@ def converte_horas(horas_c):
 
 horas = -1
 minutos = -1
+
 while True:
     horas = int(input('Digite as horas (formato 24h): '))
     if 0 <= horas < 24:
@@ -30,6 +31,5 @@ while True:
         print('Minuto inválido!')
 
 convertido, periodo = converte_horas(horas)
-
 print(f'{convertido}:{minutos:02d} {periodo}')
 
