@@ -16,5 +16,7 @@ except FileNotFoundError:
     print('O arquivo especificado não foi encontrado.')
     exit()
 
-print(f'O arquivo tem {contador_linhas} linhas.')
-print(f'O código possui {contador_print} ocorrência(s) da palavra "print".')
+print(f'''
+O arquivo tem {contador_linhas} linhas.
+O código possui {contador_print} ocorrência(s) da palavra "print".
+''')
