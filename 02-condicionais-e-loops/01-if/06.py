@@ -11,4 +11,4 @@ if produto_2 <= produto_1 and produto_2 <= produto_3:
 elif produto_3 <= produto_1 and produto_3 <= produto_2:
     menor = produto_3
 
-print(f'Você deve comprar o produto com o valor de R$ {menor:.2f}.')
+print(f'Você deve comprar o produto com o valor de R$ {menor:.2f}')
