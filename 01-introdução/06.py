@@ -4,5 +4,7 @@
 cheque = float(input('Valor do cheque: '))
 cpmf = cheque * 0.3 / 100
 
-print(f'Valor do cheque: R$ {cheque:.2f}'
-      f'\nCPMF: R$ {cpmf:.2f}')
+print(f'''
+Valor do cheque: R$ {cheque:.2f}
+CPMF: R$ {cpmf:.2f}
+''')
