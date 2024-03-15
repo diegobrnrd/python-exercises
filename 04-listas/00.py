@@ -27,12 +27,14 @@ for numero in L:
     if numero % 4 == 0:
         M4.append(numero)
 
-print(f'Intervalo de 1 a 9: {L[:10]}'
-      f'\nIntervalo de 8 a 13: {L[8:14]}'
-      f'\nNúmeros pares: {PA}'
-      f'\nNúmeros ímpares: {IM}'
-      f'\nMúltiplos de 2: {PA}'
-      f'\nMúltiplos de 3: {M3}'
-      f'\nMúltiplos de 4: {M4}'
-      f'\nLista reversa: {LR}'
-      f'\nRazão entre a soma do intervalo de 10 a 15 pelo intervalo de 3 a 9 em float: {sum(L[10:16]) / sum(L[3:10])}')
+print(f'''
+Intervalo de 1 a 9: {L[:10]}
+Intervalo de 8 a 13: {L[8:14]}
+Números pares: {PA}
+Números ímpares: {IM}
+Múltiplos de 2: {PA}
+Múltiplos de 3: {M3}
+Múltiplos de 4: {M4}
+Lista reversa: {LR}
+Razão entre a soma do intervalo de 10 a 15 pelo intervalo de 3 a 9 em float: {sum(L[10:16]) / sum(L[3:10])}
+''')

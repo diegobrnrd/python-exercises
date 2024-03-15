@@ -21,15 +21,17 @@
 
 R = []
 
-print(f'\n1 - Windows XP'
-      f'\n2 - Unix'
-      f'\n3 - Linux'
-      f'\n4 - Netware'
-      f'\n5 - Mac OS'
-      f'\n6 - Outro')
+print(f'''
+1 - Windows XP'
+2 - Unix'
+3 - Linux'
+4 - Netware'
+5 - Mac OS'
+6 - Outro
+''')
 
 while True:
-    r = int(input('\nQual o melhor Sistema  Operacional para uso em servidores?'
+    r = int(input('Qual o melhor Sistema  Operacional para uso em servidores?'
                   '\n(Responda com o apenas o número correspondente)'
                   '\n(0 zero sai)'
                   '\nResposta: '))
@@ -80,13 +82,15 @@ indice_vencedor = prpr.index(maior_por)
 vencedor = opcao[str(indice_vencedor + 1)]
 quantidade_votos_vencedor = votos[indice_vencedor]
 
-print(f'\nSistemas Operacionais - Votos %'
-      f'\nWindows XP {r1} votos {pr1:.2f}%'
-      f'\nUnix {r2} votos {pr2:.2f}%'
-      f'\nLinux {r3} votos {pr3:.2f}%'
-      f'\nNetware {r4} votos {pr4:.2f}%'
-      f'\nMac OS {r5} votos {pr5:.2f}%'
-      f'\nOutro {r6} votos {pr6:.2f}%')
+print(f'''
+Sistemas Operacionais - Votos %
+Windows XP {r1} votos {pr1:.2f}%
+Unix {r2} votos {pr2:.2f}%
+Linux {r3} votos {pr3:.2f}%
+Netware {r4} votos {pr4:.2f}%
+Mac OS {r5} votos {pr5:.2f}%
+Outro {r6} votos {pr6:.2f}%
+''')
 
 print(f'O Sistema Operacional mais votado foi o {vencedor}, com {quantidade_votos_vencedor} votos, '
       f'correspondendo a {maior_por:.2f}% dos votos.')

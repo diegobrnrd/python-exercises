@@ -25,4 +25,4 @@ for t in T:
     i += 1
 
 if qtde_temp_acima_media == 0:
-    print('nenhuma ocorrência.')
+    print('Nenhuma ocorrência.')

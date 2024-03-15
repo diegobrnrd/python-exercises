@@ -9,5 +9,7 @@ for n in L:
     else:
         IM.append(n)
 
-print(f'Lista par: {PA}'
-      f'\nLista ímpar: {IM}')
+print(f'''
+Lista par: {PA}
+Lista ímpar: {IM}
+''')
