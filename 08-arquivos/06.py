@@ -18,5 +18,4 @@ except FileNotFoundError:
 
 print(f'''
 O arquivo tem {contador_linhas} linhas.
-O código possui {contador_print} ocorrência(s) da palavra "print".
-''')
+O código possui {contador_print} ocorrência(s) da palavra "print".''')
