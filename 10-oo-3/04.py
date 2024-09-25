@@ -38,8 +38,7 @@ obj_1.creditar(2000)
 obj_1.debitar(1000)
 print(f'''
 Número da conta: {obj_1.numero}
-Saldo: R$ {obj_1.saldo:.2f}
-''')
+Saldo: R$ {obj_1.saldo:.2f}''')
 
 obj_2 = Poupanca(456, 50)
 obj_2.creditar(2000)
@@ -48,8 +47,7 @@ obj_2.render_juros()
 print(f'''
 Número da conta: {obj_2.numero}'
 Saldo: R$ {obj_2.saldo:.2f}'
-Taxa de juros: {obj_2.taxa_juros}%
-''')
+Taxa de juros: {obj_2.taxa_juros}%''')
 
 obj_3 = ContaImposto(789, 50)
 obj_3.creditar(2000)
@@ -58,5 +56,4 @@ obj_3.calcula_imposto()
 print(f'''
 Número da conta: {obj_3.numero}
 Saldo: R$ {obj_3.saldo:.2f}
-Taxa de imposto: {obj_3.percentual_imposto}%
-''')
+Taxa de imposto: {obj_3.percentual_imposto}%''')

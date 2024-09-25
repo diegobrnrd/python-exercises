@@ -47,5 +47,4 @@ triangulo.calcula_area()
 
 print(f'''
 Área do retângulo: {retangulo.area}
-Área do triângulo: {triangulo.area}
-''')
+Área do triângulo: {triangulo.area}''')
