@@ -42,5 +42,4 @@ Total votos candidato C: {total_c} voto(s).
 Total votos nulo: {total_nulo} votos(S).
 Total votos em branco: {total_branco} voto(s).
 Percentagem de votos nulos sobre o total de votos: {total_nulo * 100 / total_votos:.2f}%
-Percentagem de votos em branco sobre o total de votos: {total_branco * 100 / total_votos:.2f}%
-''')
+Percentagem de votos em branco sobre o total de votos: {total_branco * 100 / total_votos:.2f}%''')

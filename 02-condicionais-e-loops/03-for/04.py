@@ -13,5 +13,4 @@ for n in range(1, 11):
 
 print(f'''
 Quantidade de números pares: {pares}
-Quantidade de números ímpares: {impares}
-''')
+Quantidade de números ímpares: {impares}''')

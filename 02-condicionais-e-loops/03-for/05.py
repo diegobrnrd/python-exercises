@@ -16,5 +16,4 @@ for t in range(1, 101):
 print(f'''
 Maior temperatura: {maior_temperatura}
 Menor temperatura: {menor_temperatura}
-Média das temperaturas: {soma / 100}
-''')
+Média das temperaturas: {soma / 100}''')
