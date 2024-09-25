@@ -7,5 +7,4 @@ salario_final = salario + aumento
 print(f'''
 Antigo salário: R$ {salario:.2f}
 Novo salário: R$ {salario_final:.2f}
-Aumento: R$ {aumento:.2f}
-''')
+Aumento: R$ {aumento:.2f}''')

@@ -6,5 +6,4 @@ cpmf = cheque * 0.3 / 100
 
 print(f'''
 Valor do cheque: R$ {cheque:.2f}
-CPMF: R$ {cpmf:.2f}
-''')
+CPMF: R$ {cpmf:.2f}''')
