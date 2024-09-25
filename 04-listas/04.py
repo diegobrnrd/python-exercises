@@ -7,5 +7,4 @@ for i in range(1, 21):
 
 print(f'''
 Maior idade: {max(idades)}
-Menor idade: {min(idades)}
-''')
+Menor idade: {min(idades)}''')

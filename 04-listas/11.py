@@ -27,18 +27,17 @@ print(f'''
 3 - Linux'
 4 - Netware'
 5 - Mac OS'
-6 - Outro
-''')
+6 - Outro''')
 
 while True:
-    r = int(input('Qual o melhor Sistema  Operacional para uso em servidores?'
+    r = int(input('\nQual o melhor Sistema  Operacional para uso em servidores?'
                   '\n(Responda com o apenas o número correspondente)'
                   '\n(0 zero sai)'
                   '\nResposta: '))
     if r == 0:
         break
     elif r < 0 or r > 7:
-        print('Resposta inválida! Digite uma resposta entre 0 e 6')
+        print('\n8Resposta inválida! Digite uma resposta entre 0 e 6')
         continue
     else:
         R.append(r)

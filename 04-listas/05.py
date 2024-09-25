@@ -11,5 +11,4 @@ for n in L:
 
 print(f'''
 Lista par: {PA}
-Lista ímpar: {IM}
-''')
+Lista ímpar: {IM}''')

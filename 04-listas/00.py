@@ -36,5 +36,4 @@ Múltiplos de 2: {PA}
 Múltiplos de 3: {M3}
 Múltiplos de 4: {M4}
 Lista reversa: {LR}
-Razão entre a soma do intervalo de 10 a 15 pelo intervalo de 3 a 9 em float: {sum(L[10:16]) / sum(L[3:10])}
-''')
+Razão entre a soma do intervalo de 10 a 15 pelo intervalo de 3 a 9 em float: {sum(L[10:16]) / sum(L[3:10])}''')
