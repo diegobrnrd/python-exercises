@@ -42,5 +42,4 @@ produto_2.preco = 500
 print(f'''
 Código: {produto_1.codigo} - Preço: R$ {produto_1.preco}
 Código: {produto_2.codigo} - Preço: R$ {produto_2.preco}
-Quantidade de produtos: {produto_2.quantidade_produto}
-''')
+Quantidade de produtos: {produto_2.quantidade_produto}''')
