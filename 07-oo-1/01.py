@@ -27,6 +27,4 @@ triangulo = Triangulo(ladoA, ladoB, ladoC)
 
 print(f'''
 O perímetro do triângulo é: {triangulo.calcula_perimetro()}
-O maior lado do triângulo é: {triangulo.get_maior_lado()}
-''')
-
+O maior lado do triângulo é: {triangulo.get_maior_lado()}''')
